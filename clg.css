@@ -1,0 +1,38 @@
+
+
+.list h3{
+	color:#800000;
+}
+.contain li{
+	display:inline;
+
+}
+.contain
+{
+	text-align:center;
+	list-style:none;
+	
+}
+.contain li
+{
+	display:inline;
+	text-height: 1cm;
+	
+	
+}
+.contain li:not(:first-child):before
+{
+	content: '|';
+	padding:0px 50px;
+}
+.contain a
+{   
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+	color:#BA9EAB  ;  
+}
+.contain a:hover
+{
+	color:#D1AEBF  ;
+	text-decoration: none;
+}
